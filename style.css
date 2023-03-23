@@ -1,0 +1,11 @@
+.container {
+    display: flex;
+}
+
+.container div {
+    flex: 1;
+    border-style: solid;
+    border-width: 1px;
+    height: 82px;
+    width: 40px;
+}
