@@ -11,7 +11,7 @@ btn.addEventListener("click", () => {
     let StringNumberPerSide = prompt("Please enter the number of squares in one side ");
     let numberPerSide = parseInt(StringNumberPerSide);
 
-    if(numberPerSide>64 || numberPerSide < 2 || typeof numberPerSide != "number")
+    if(numberPerSide>64 || numberPerSide < 2 || !Number.isInteger(numberPerSide))
     {
         numberPerSide = 0;
         alert("Wrong input !!");
